@@ -100,6 +100,12 @@ This project was developed as part of a **technical assessment for VectorShift**
 
 4. Open the app in your browser: [http://localhost:3000](http://localhost:3000)
 
+📸 **Responses:**
+![React Frontend](ScreenShots/2.png)
+![React Frontend](ScreenShots/1.png)
+![React Frontend](ScreenShots/2.5.png)
+*(Screenshot of the React app home/dashboard)*
+
 ---
 
 ## 🚀 Usage
@@ -112,7 +118,9 @@ This project was developed as part of a **technical assessment for VectorShift**
   * ✅ DAG validation status
   * ✅ Error messages (if invalid)
 
-All results are displayed in a modal for clear feedback.
+📸 **Response:**
+![Pipeline Data](ScreenShots/3.png)
+*(Screenshot of a sample pipeline graph being submitted and results modal)*
 
 ---
 
@@ -121,15 +129,29 @@ All results are displayed in a modal for clear feedback.
 * **POST** `/pipelines/parse` → Accepts pipeline data (nodes & edges) and returns validation + stats.
 * **CORS** is configured for local development.
 
+📸 **Response:**
+![Pipeline Endpoints](ScreenShots/4.png)
+
+```json
+{
+  "nodes": 4,
+  "edges": 3,
+  "is_dag": true
+}
+```
+
 ---
 
 ## 📝 Notes
 
 * Designed for **local development & assessment**.
-* Deployment not ready, having some deployment and compatibility errors.
+* Deployment not ready.
 * Refer to code comments for deeper implementation details.
 * A screen recording is included with the submission for demo purposes.
 
+---
+📸 **Response:**
+![Recording](ScreenShots/MAYANK_NEGI_screenrecording.mp4)
 ---
 
 ## 📬 Contact
@@ -138,4 +160,3 @@ All results are displayed in a modal for clear feedback.
 For any questions or clarifications, please reach out via the contact details shared with the submission.
 
 ---
-
