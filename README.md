@@ -150,9 +150,6 @@ This project was developed as part of a **technical assessment for VectorShift**
 * A screen recording is included with the submission for demo purposes.
 
 ---
-📸 **Response:**
-![Recording](ScreenShots/MAYANK_NEGI_screenrecording.mp4)
----
 
 ## 📬 Contact
 
