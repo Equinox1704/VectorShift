@@ -1,0 +1,37 @@
+.base-node {
+  padding: 16px 12px;
+  border-radius: 12px;
+  background: #fafbfc;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.09);
+  border: 1.5px solid #d5dce5;
+  min-width: 200px;
+  max-width: 480px;
+  transition: box-shadow 0.15s;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+.base-node:hover {
+  box-shadow: 0 4px 12px rgba(44,62,80,0.15);
+  border-color: #1C2536;
+}
+.base-node-header {
+  font-size: 1.14em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #1C2536;
+}
+.base-node-body {
+  margin-bottom: 8px;
+}
+
+/* Handle enhancements */
+.react-flow__handle {
+  width: 12px;
+  height: 12px;
+  background: #3b63f8;
+  border: 2px solid #fff;
+  box-shadow: 0 0 3px #3b63f870;
+  border-radius: 50%;
+}
